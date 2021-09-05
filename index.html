@@ -7,13 +7,17 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-  <title>Frontend Mentor | Profile card component</title>
+  <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -29,34 +33,42 @@
 </head>
 
 <body>
-  <main class="flex">
-    <article class="card">
-      <div class="card-header">
-        <img class="card-header-img" src="images/bg-pattern-card.svg" alt="">
-      </div>
-      <div class="card-body">
-        <img class="imagen-user" src="images/image-victor.jpg" alt="Imagen del usuario Victor">
-        <h1 class="titulo">Victor Crest
-          <span>26</span>
-        </h1>
-        <p>Londom</p>
-      </div>
+  <main>
+    <article>
+      <div class="card">
+        <div class="left">
+          <div class="header">
+            <h1 class="heading">Get <span>insights</span> that help your business grow.</h1>
+          </div>
+          <div class="parrafo">
+            <p class="cont">Discover the benefits of data analytics and make better decisions regarding revenue,
+              customer
+              experience, and overall efficiency.</p>
+          </div>
+          <div class="social">
+            <div>
+              <h2>10k+</h2>
+              <p>companies</p>
+            </div>
+            <div>
+              <h2>314</h2>
+              <p>templates</p>
+            </div>
+            <div>
+              <h2>12M+</h2>
+              <p>queries</p>
+            </div>
+          </div>
 
-
-      <div class="card-footer">
-        <div>
-          <h3 class="m-10">80K</h3>
-          <p class="m-10">Followers</p>
-        </div>
-        <div>
-          <h3 class="m-10">830K</h3>
-          <p class="m-10">Likes</p>
-        </div>
-        <div>
-          <h3 class="m-10">1.4K</h3>
-          <p class="m-10">Photos</p>
         </div>
 
+        <div class="right">
+          
+          <img class="desktop" src="./images/image-header-desktop.jpg" alt="Imagen de la compañia">
+          <img class="mobile" src="./images/image-header-mobile.jpg" alt="Imagen de la compañia">
+          <div class="pink"></div>
+        </div>
+        
       </div>
     </article>
   </main>
@@ -64,9 +76,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Roger</a>.
   </div>
 </body>
 
